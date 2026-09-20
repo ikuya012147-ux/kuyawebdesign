@@ -19,7 +19,7 @@
     .flow{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.step{border-top:1px solid var(--ink);padding-top:18px}.step .num{color:#816332}.step h3{font-size:1.05rem;margin:14px 0 8px}.step p{font-size:.86rem;color:var(--muted);margin:0}
     .owner{background:var(--ink);color:white}.owner-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:center}.monogram{border:1px solid #5d5148;aspect-ratio:1;display:grid;place-items:center;font-family:"Noto Serif JP",serif;font-size:clamp(4rem,12vw,9rem);color:var(--amber)}.owner h2{font-size:clamp(2rem,4vw,3rem);line-height:1.55;margin:0 0 24px}.owner p{color:#d4cbc1}.signature{font-family:"Noto Serif JP",serif;color:var(--amber);font-size:1.1rem;margin-top:26px}
     .faq-grid{max-width:840px;margin:auto}.faq details{border-top:1px solid #cfc5b8;padding:22px 0}.faq details:last-child{border-bottom:1px solid #cfc5b8}.faq summary{font-family:"Noto Serif JP",serif;font-size:1.03rem;cursor:pointer;list-style:none;display:flex;justify-content:space-between}.faq summary:after{content:"＋";color:#816332}.faq details[open] summary:after{content:"−"}.faq details p{color:var(--muted);margin:12px 35px 0 0;font-size:.92rem}
-    .reserve{padding:110px 0;background:var(--amber);text-align:center}.reserve h2{font-size:clamp(2rem,4vw,3.4rem);margin:0 0 16px}.reserve p{margin:0 auto 30px;max-width:620px}.reserve .button{background:var(--deep)}.access{display:flex;justify-content:center;gap:36px;margin-top:28px;font-size:.85rem;flex-wrap:wrap}.footer{background:var(--deep);color:#c5bbb1;padding:45px 0;font-size:.78rem}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer strong{color:white;letter-spacing:.18em}.sample-note{color:var(--amber)}
+    .reserve{padding:110px 0;background:var(--amber);text-align:center}.reserve h2{font-size:clamp(2rem,4vw,3.4rem);margin:0 0 16px}.reserve p{margin:0 auto 30px;max-width:620px}.reserve .button{background:var(--deep)}.access{display:flex;justify-content:center;gap:36px;margin-top:28px;font-size:.85rem;flex-wrap:wrap}.footer{background:var(--deep);color:#c5bbb1;padding:45px 0;font-size:.78rem}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer strong{color:white;letter-spacing:.18em}.sample-note{color:var(--amber)}.kuya-link{color:inherit;text-underline-offset:4px}.dialog-kuya{margin-right:auto;align-self:center;font-size:.9rem;font-weight:600;color:var(--ink);text-underline-offset:4px}
     dialog{border:0;padding:0;background:transparent;max-width:540px;width:calc(100% - 32px)}dialog::backdrop{background:rgba(0,0,0,.65)}.dialog-box{background:var(--paper);padding:38px;color:var(--ink);box-shadow:0 20px 70px #0008}.dialog-box h2{margin:0 0 12px;font-size:1.55rem}.dialog-box p{color:var(--muted)}.dialog-actions{display:flex;justify-content:flex-end;margin-top:24px}.dialog-actions button{font:inherit;cursor:pointer}.mobile-cta{display:none}
     @media(max-width:820px){.navlinks a:not(.button){display:none}.section-head,.concept-grid,.owner-grid{grid-template-columns:1fr;gap:35px}.section-head{margin-bottom:40px}.concern-grid,.menu-grid{grid-template-columns:1fr}.flow{grid-template-columns:1fr 1fr}.hero{min-height:620px;background-position:64% center}.hero:after{background:linear-gradient(90deg,rgba(15,12,10,.88),rgba(15,12,10,.35))}section{padding:78px 0}.monogram{max-width:360px}.footer-row{align-items:flex-start;flex-direction:column}.mobile-cta{display:block;position:fixed;z-index:5;bottom:14px;right:14px;background:var(--amber);color:var(--deep);padding:12px 18px;text-decoration:none;box-shadow:0 8px 24px #0005;font-size:.82rem}}
     @media(max-width:520px){.wrap{width:min(100% - 28px,var(--max))}.nav{height:68px}.hero h1{font-size:2.35rem}.hero-inner{padding:70px 0 90px}.flow{grid-template-columns:1fr}.menu-card{min-height:auto}.concern{min-height:auto}.demo{font-size:.7rem}.access{gap:10px;flex-direction:column}}
@@ -31,7 +31,7 @@
   <header class="wrap nav">
     <a class="brand serif" href="#top">NAGI<small>PRIVATE SALON</small></a>
     <nav class="navlinks" aria-label="メインナビゲーション">
-      <a href="#concept">こだわり</a><a href="#menu">メニュー</a><a href="#flow">ご利用の流れ</a>
+      <a href="#concept">こだわり</a><a href="#menu">メニュー</a><a href="#flow">ご利用の流れ</a><a href="service.html">Kuyaに制作相談</a>
       <a class="button ghost demo-open" href="#reserve">空き状況を見る</a>
     </nav>
   </header>
@@ -62,7 +62,7 @@
         <div class="concept-copy"><div class="eyebrow">Our philosophy</div><h2 class="quote">決まった手順ではなく、<br>今日のあなたに合わせる。</h2><p>体調や気分は、毎回同じではありません。施術前のお話と触れたときの感覚を大切に、圧の強さ、香り、重点的に触れる場所をその日ごとに調整します。</p><p>一対一の小さなサロンだからこそ、周囲を気にせず過ごせる時間と、担当が変わらない安心をお届けします。</p></div>
         <div class="principles">
           <div class="principle"><b>一日3名だけの完全予約制</b><span>前後に余白を取り、他のお客様と重ならないようご案内します。</span></div>
-          <div class="principle"><b>カウンセリング込みの時間設定</b><span>お急ぎいただくことなく、その日の希望を確認してから始めます。</span></div>
+          <div class="principle"><b>施術前のご希望確認</b><span>表示時間とは別に、カウンセリングとお着替えの時間を設けています。</span></div>
           <div class="principle"><b>回数券の押し売りはしません</b><span>次回予約も、ご自身のペースで。必要な選択肢だけをお伝えします。</span></div>
         </div>
       </div>
@@ -98,10 +98,10 @@
 
     <section class="reserve" id="reserve"><div class="wrap"><div class="eyebrow" style="color:#4c3822">Reservation</div><h2>ひと息つける時間を、<br>先に予定へ。</h2><p>ご予約枠は一日3名です。空き状況だけの確認もお気軽にどうぞ。</p><a class="button demo-open" href="#demo-note">空き状況を見る</a><div class="access"><span>営業時間 10:00–19:30</span><span>不定休</span><span>駅徒歩6分・完全個室</span></div></div></section>
   </main>
-  <footer class="footer" id="demo-note"><div class="wrap footer-row"><div><strong>NAGI PRIVATE SALON</strong><br>© Demo site. All information is fictional.</div><div class="sample-note">このページは営業提案用サンプルです。実在の店舗ではありません。</div></div></footer>
+  <footer class="footer" id="demo-note"><div class="wrap footer-row"><div><strong>NAGI PRIVATE SALON</strong><br>© Demo site. All information is fictional.<br><a class="kuya-link" href="service.html">このサイトを制作したKuyaに相談する</a></div><div class="sample-note">このページは営業提案用の架空サンプルです。実在の店舗・有償制作実績ではありません。</div></div></footer>
   <a class="mobile-cta demo-open" href="#reserve">空き状況を見る</a>
 
-  <dialog id="demo-dialog"><div class="dialog-box"><h2>デモサイトです</h2><p>こちらは個人サロン向けホームページ制作の営業提案用サンプルです。予約は送信されません。実際の制作では、LINE・予約サイト・お問い合わせフォームなど、ご希望の導線へ接続できます。</p><div class="dialog-actions"><button class="button" type="button" id="close-dialog">閉じる</button></div></div></dialog>
+  <dialog id="demo-dialog"><div class="dialog-box"><h2>デモサイトです</h2><p>こちらは個人サロン向けホームページ制作の架空サンプルです。予約は送信されません。実際の制作では、LINE・予約サイト・お問い合わせフォームなど、ご希望の導線へ接続できます。</p><div class="dialog-actions"><a class="dialog-kuya" href="service.html">Kuyaに制作相談</a><button class="button" type="button" id="close-dialog">閉じる</button></div></div></dialog>
   <script>
     const dialog=document.getElementById('demo-dialog');
     document.querySelectorAll('.demo-open').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();dialog.showModal()}));
