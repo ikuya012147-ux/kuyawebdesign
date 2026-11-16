@@ -28,6 +28,10 @@ html{font-size:100%;scroll-padding-top:1rem}body{font-family:"Noto Sans JP","Hir
 <style>
 #booking-samples [hidden]{display:none!important}#booking-samples button,#booking-samples input,#booking-samples select,#booking-samples textarea{font:inherit}#booking-samples button{cursor:pointer;max-width:100%;white-space:normal}#booking-samples .booking-copy-tools{margin-top:24px}#booking-samples .booking-copy-status{min-height:1.75em;margin:8px 0 0;color:var(--ds-text)}#booking-samples .booking-manual{margin-top:16px}#booking-samples label{display:block;font-weight:700;margin-bottom:8px}#booking-samples textarea,#booking-samples input,#booking-samples select{display:block;width:100%;max-width:100%;min-width:0;border:1px solid var(--ds-border);border-radius:8px;background:#fff;color:var(--ds-text);padding:12px;line-height:1.75}#booking-samples input,#booking-samples select{min-height:48px}#booking-samples textarea{resize:vertical;overflow-wrap:anywhere;margin-bottom:16px}#booking-samples textarea:focus-visible,#booking-samples select:focus-visible{outline:3px solid #1a1a1c;outline-offset:3px;box-shadow:0 0 0 3px var(--ds-focus)}#booking-samples .booking-helper{margin-top:32px;border:1px solid var(--ds-border);border-radius:8px;background:#fff}#booking-samples .booking-helper summary{padding:16px 24px;min-height:56px;font-weight:700;cursor:pointer;overflow-wrap:anywhere}#booking-samples .booking-helper-body{padding:0 24px 24px}#booking-samples .booking-helper-body>p{margin-top:0}#booking-samples .booking-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:24px 0}#booking-samples .booking-field{min-width:0}#booking-samples .booking-field-wide{grid-column:1/-1}#booking-samples .booking-field-help{color:var(--ds-muted);margin:0 0 8px}#booking-samples .booking-field-error{color:#b00020;margin:8px 0 0}#booking-samples .booking-field-error:empty{display:none}#booking-samples [aria-invalid="true"]{border:2px solid #b00020}#booking-samples .booking-result{border-top:1px solid var(--ds-border);margin-top:32px;padding-top:24px}#booking-samples .booking-result h3{margin-top:0}#booking-samples .booking-result p{margin-bottom:16px}@media(max-width:600px){#booking-samples .booking-fields{grid-template-columns:1fr}#booking-samples .booking-helper summary{padding:16px}#booking-samples .booking-helper-body{padding:0 16px 16px}}
 </style>
+
+<style>
+#booking-guide{scroll-margin-top:7rem}#booking-guide ol{margin:0;padding-left:1.5em}#booking-guide li+li{margin-top:16px}#booking-guide li strong{display:block;margin-bottom:8px}#booking-guide li p{margin:0}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main-content">本文へ移動</a>
@@ -47,6 +51,16 @@ html{font-size:100%;scroll-padding-top:1rem}body{font-family:"Noto Sans JP","Hir
 ［メニュー］は［所要時間］、［税込総額］です。
 ご希望の日時は［予約先］でご確認ください。
 ［予約受付の締切がある場合のみ、その日時を追記］</p><div class="booking-copy-tools" hidden><button class="button outline booking-copy" type="button" data-booking-copy="booking-weekend-source" data-booking-status="booking-weekend-status" data-booking-manual="booking-weekend-manual">週末の文章をコピー</button><p class="booking-copy-status" id="booking-weekend-status" role="status" aria-live="polite" aria-atomic="true"></p><div id="booking-weekend-manual" class="booking-manual" hidden><label for="booking-weekend-manual-text">手動コピー用の本文（編集不可）</label><textarea id="booking-weekend-manual-text" readonly rows="8"></textarea></div></div></article></div>
+<details class="booking-helper" id="booking-guide" open>
+  <summary>予約告知を正確に書く3ステップ</summary>
+  <div class="booking-helper-body">
+    <ol>
+      <li><strong>予約表とメニュー表を確認する</strong><p>日付・曜日、開始時刻、メニュー、所要時間、税込総額、予約先をそろえます。追加料金や初回限定などの条件も確認し、「残り1枠」は実際の予約状況と一致する場合だけ使ってください。</p></li>
+      <li><strong>当日と週末で見本を選ぶ</strong><p>当日は空き枠を先頭に、週末は日時を一覧にします。<a href="#booking-samples">無料見本2本</a>から合うものを選び、［ ］を自店の情報に置き換え、不要な行を削って使えます。</p></li>
+      <li><strong>予約する人の目線で読み直す</strong><p>［ ］の残り、日時・料金、予約先で案内したメニューを選べるかを確認します。メッセージ予約は、いつ予約が確定するかも明記。投稿後に満席になったら、古い告知にも受付終了を追記します。</p></li>
+    </ol>
+  </div>
+</details>
 <details class="booking-helper" id="booking-helper" hidden>
   <summary>お店の情報を入れて、当日版の文章を作る（無料）</summary>
   <div class="booking-helper-body">
